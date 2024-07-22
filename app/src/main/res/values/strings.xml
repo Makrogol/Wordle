@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="attempt_are_over_the_word_was_string">Попытки кончились. Попробуйте еще раз. Слово было: %s</string>
+    <string name="that_word_isnt_in_dictionary_string">Такого слова нет в словаре</string>
+    <string name="error_message_string">Произошла ошибка</string>
+    <string name="you_are_guessed_word_string">Вы угадали слово!</string>
+    <string name="verify_word_string">Проверить слово</string>
+    <string name="start_game_string">Начать игру</string>
+    <string name="stats_name_string">Статистика</string>
+    <string name="history_name_string">История</string>
+    <string name="reference_name_string">Справка</string>
+    <string name="count_game_string">Количество игр:</string>
+    <string name="count_finished_game_string">Количество законченных игр:</string>
+    <string name="count_wined_game_string">Количество выигранных игр:</string>
+    <string name="average_attempt_to_guess_word_string">Средняя попытка:</string>
+    <string name="change_state_string">Сменить на: %s</string>
+    <string name="attempt_in_win_game_string">Вы угадали слово с %s попытки</string>
+    <string name="attempt_in_loose_game_string">У Вас не получилось угадать слово</string>
+    <string name="empty_int_data">0</string>
+    <string name="empty_float_data">0.00</string>
+    <string name="empty_percent_data">0.00%</string>
+    <string name="history_description_screen_word_string">Слово: %s</string>
+    <string name="history_description_screen_date_string">Дата и время: %s</string>
+    <string name="history_description_screen_game_id_string">Игра №%s</string>
+    <string name="history_description_screen_game_time_string">Время игры: %s час, %s мин, %s сек</string>
+    <string name="total_game_time_string">Общее время игры:</string>
+    <string name="average_game_time_string">Среднее время игры:</string>
+    <string name="total_game_time_fill_string">%s дн, %s час,\n%s мин, %s сек</string>
+    <string name="average_game_time_fill_string">%s час, %s мин, %s сек</string>
+
+<!--    TODO: сделать что-то лучше, чем 7 текстовых штук-->
+    <string name="reference_text1">Игра \"Wordle\" и правила игры\n\n</string>
+    <string name="reference_text2">Приветствую! Сейчас я расскажу вам, как играть в игру \"Wrodle\" и наслаждаться этим процессом. Простые правила: если буква подсвечивается зеленым - она на своём месте, если же буква подсвечивается желтым - она есть в слове, но не на этом месте, а если вдруг буква подсвечивается тускло-серым, то данной буквы в слове нет.\n\n</string>
+    <string name="reference_text3">Пример игры \"Wordle\"\n\n</string>
+    <string name="reference_text4">Рассмотрим пример: загадано слово \"океан\". Для начала можно ввести слово \"искра\" и увидеть, что буквы \"к\" и \"а\" есть в загаданном слове (см. рис. 1). Теперь можно избрать два пути: первый - попытаться угадать положение уже открытых букв, второй - поискать еще не открытые буквы. Второй способ предпочтительнее, пока вам не станет известно больше половины букв или не будет открыто большинство букв (но вы можете использовать любой способ или изобрести свой).\n\n</string>
+    <string name="reference_text5">Продолжение игры и советы\n\n</string>
+    <string name="reference_text6">Теперь попробуем слово \"коран\", так как в нем присутствуют обе открытые ранее буквы и обе на других местах, и видим (см. рис. 2), что буквы \"а\" и \"н\" зеленые - значит, они на своих местах, а буквы \"к\" и \"о\" желтые - значит, они есть в слове, но не на местах буквы \"а\" и \"н\". Сейчас уже можно угадать слово (см. рис. 3), но если вам не так повезло, то можно попробовать найти оставшиеся буквы, пока есть достаточное количество попыток.\n\n</string>
+    <string name="reference_text7">Удачи в игре и получайте удовольствие!\n\nПо всем вопросам и предложениям обращайтесь к нашим разработчикам в Telegram: %s</string>
+
+    <string name="programmer_link_text">\@q927483920</string>
+    <string name="copying_text">Скопировано</string>
+
+    <string name="save_stats_text">Сохранить\nстатистику</string>
+    <string name="save_history_text">Сохранить\nисторию</string>
+    <string name="get_history_from_file_text">Загрузить историю\nиз файла</string>
+    <string name="get_stats_from_file_text">Загрузить статистику\nиз файла</string>
+</resources>
